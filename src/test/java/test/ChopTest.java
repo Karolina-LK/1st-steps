@@ -6,14 +6,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.ArrayList;
 import java.util.List;
 
+import chopper.WithJavaArrayChop;
+import chopper.WithJavaCollection;
 import org.junit.jupiter.api.Test;
 
 import chopper.IKarateChop;
 import chopper.IterativeChop;
+import sun.jvm.hotspot.utilities.Assert;
 
 class ChopTest {
 
     IKarateChop chopper = new IterativeChop();
+
 
    @Test
     void testEmptyArray() {
@@ -76,4 +80,22 @@ class ChopTest {
         assertEquals(-1, chopper.chop(8, testList));
     }
 
+    //jesli chcialabym wrzucic tu testy, 2 nowe klasy tez powinny miec interface, right?
+
+
 }
+
+//class ChopTestLeftovers {
+//
+////    @Test
+//    public void givenASortedArrayOfIntegers_whenBinarySearchRunUsingArraysClassStaticMethodForANumber_thenGetIndexOfTheNumber() {
+//        WithJavaArrayChop chopper = new WithJavaArrayChop();
+//        Assert.assertEquals(expectedIndexForSearchKey, chopper.runBinarySearchUsingJavaArrays(sortedArray, key));
+//    }
+//
+//    @Test
+//    public void givenASortedListOfIntegers_whenBinarySearchRunUsingCollectionsClassStaticMethodForANumber_thenGetIndexOfTheNumber() {
+//        WithJavaCollection chopper = new WithJavaCollection();
+//        Assert.assertEquals(expectedIndexForSearchKey, chopper.runBinarySearchUsingJavaCollections(sortedList, key));
+//    }
+//}

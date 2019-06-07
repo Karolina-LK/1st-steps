@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BinaryChop {
 
-    public int chop (int target, List<Integer> intsArray) {
+    public int chop (int target, int[] intsArray) {
         return 0;
     }
 }

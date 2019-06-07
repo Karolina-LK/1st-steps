@@ -9,4 +9,6 @@ public class RChop implements IKarateChop {
         return -10000;
     }
 
+
+
 }
