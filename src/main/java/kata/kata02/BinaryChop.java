@@ -10,7 +10,7 @@ public class BinaryChop implements BinarySearchItem {
         for (int i = 0; i < intsArray.length; i++) {
             int value = intsArray[i];
             if (value == target) {
-                System.out.println("Searched1.0 no is at position no " + i);
+                System.out.println("Searched1 no is at position no " + i);
                 return i;
 
             }

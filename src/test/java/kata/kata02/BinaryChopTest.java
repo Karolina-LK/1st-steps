@@ -40,7 +40,7 @@ class BinaryChopTest {
     }
 
     @Test
-  void shouldReturnPositionOfTheSearchedNoLookedForByBinaryChop2() {
+  void shouldReturnPositionOfTheSearchedNoLookedForByBinaryChop2Class() {
       BinarySearchItem binaryChop2 = new BinaryChop2();
 
         assertions(binaryChop2);
