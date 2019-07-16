@@ -46,4 +46,4 @@ class BinaryChopTest {
         assertions(binaryChop2);
     }
 
-}//zakomit reczy w kat kata, potem nast elementy/ potem posprzatac (miejsce, nazwy, etc)/ plus komit/ podejscie do impleemtacji roganiz, plus komit
+}
