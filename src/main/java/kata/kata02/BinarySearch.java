@@ -8,28 +8,10 @@ public class BinarySearch {
     public static void main(String[] args) {
 
 
-        int[] numbers = new int[]{2, 50, 234, 23445, 56, 4, 87, -90, 78, 60, 11, 0};
+        int[] numbers = new int[]{2, 50, 234, 23445, 56, 4, 87, -90, 78, 60, 11, 0, 1};
         int searchedNo = 11;
         int size = numbers.length;
 
-        for (int i = 0; i < size; i++) {
-            int value = numbers[i];
-            if (value == searchedNo) {
-                System.out.println("Searched no is at position no " + i);
-            }
-            //dlaczego jak daje main, nie czepia sie 'size', a bez tego mi to podkresla?
-        }
-
-
-        int j = 0;
-        while (j < size) {
-
-            int val = numbers[j];
-            if (val == searchedNo) {
-                System.out.println("Searched no is at position no " + j);
-            }
-            j++;
-        }
 
 
         //pierwsza na uporzadkowanej
