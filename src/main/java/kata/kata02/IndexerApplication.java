@@ -19,14 +19,18 @@ public class IndexerApplication {
     }
     public static void main(String[] args) {
 
-        IndexerApplication indexerApplication = new IndexerApplication();
+       // IndexerApplication indexerApplication = new IndexerApplication();
        // finder.findIndex( value,  intsArray);
 
-        cokolwiek(); (do rozwiazania)
+        //cokolwiek();
+
+        //(do rozwiazania)
+
+
 
     }
 
     //java naming convention, konstruktory klas, wywolywanie metod (overload method->), sygnatura metody, przeciazanie metod, przeslanianie metod
-    //(override method), slownik terminow na 1 prac program (?p-jak wyrobie), 2 pierwsze najistotniejsze
+
 
 }
